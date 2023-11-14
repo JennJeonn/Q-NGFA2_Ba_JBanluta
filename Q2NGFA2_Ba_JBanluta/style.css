@@ -1,0 +1,75 @@
+nav{
+    background-color: rosybrown;
+}
+navbar{
+    padding: 50px;
+    margin: 10px;
+    align-content: center;
+    background-color: rosybrown;
+    display: block;
+}
+
+#vine{
+   background-position:  -290px -72px;
+}
+
+#twitter{
+	background-position:  -66px -72px;
+}
+
+#Fb{
+	background-position:  -439px -146px;
+}
+
+#like{
+	background-position:  -587px -221px;
+}
+
+.navlinks{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+header{
+    padding: 50px;
+    margin: 10px;
+    align-content: center;
+    background-color: rosybrown;
+    display: block;
+    align-content: start;
+}
+
+section{
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 640px){
+    .dropbtn{
+        background-color: antiquewhite;
+        color: aliceblue;
+        padding: lvw;
+        font-size: 16px;
+        border: none;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: beige;
+        position: relative;
+    }
+    .dropdown-content a{
+        display: none;
+        position: absolute;
+        background-color: aliceblue;
+        min-width: `60px;
+        box-shadow: 0px 8px;
+    }
+}
